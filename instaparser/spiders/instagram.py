@@ -13,7 +13,7 @@ class InstagramSpider(scrapy.Spider):
 
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     inst_login = 'kttt9333'
-    inst_password = '#PWD_INSTAGRAM_BROWSER:10:1610477870:AZtQAAAI5A/orqCZznhg0zQyKVBtHQulk6K/khrN1sYX9fwHB2LfjXUnRv0VisYwdxnMB3twfEotKEPRGrDffPjQv6H6LD9qJ0vZ1r8daKOScKYRwrtdydg/FDTIAWNyIAEMfmdvYnLy8W7FLg=='
+    inst_password = ''
     parse_user = ['selena_sun_', 'katya.t_m']
     graphql_url = 'https://www.instagram.com/graphql/query/?'
     subscriber_hash = '5aefa9893005572d237da5068082d8d5'
